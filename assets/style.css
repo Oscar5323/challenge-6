@@ -29,7 +29,14 @@ section{
 }
 
 .s2{
-    display: block;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 20px;
+    width: 50vw;
     background-color: gray;
+    border: solid black;
+}
+
+.grid-item{
     border: solid black;
 }
