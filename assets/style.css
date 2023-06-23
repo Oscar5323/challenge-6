@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    display: flex;
+    background-color: gray;
+    color: whitesmoke;
+    align-items: center;
+    border: solid black;
+    margin-bottom: 10px;
+}
+
+section{
+    display: block;
+    background-color: gray;
+    margin: 1vw;
+    padding: 5vh;
+    border: solid black;
+    
+
+}
+
+.s1{
+    margin-left: 33vw;
+    margin-right: 33vw;
+}
+
+.s2{
+    display: block;
+    background-color: gray;
+    border: solid black;
+}
